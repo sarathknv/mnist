@@ -95,7 +95,7 @@ layers = [
 for l in layers:
     model.add(l)
 
-model = load_model('saved_models/best_val_acc_epoch_20_bs_4.h5', custom_objects={'MaxMin': MaxMin})
+#model = load_model('saved_models/best_val_acc_epoch_20_bs_4.h5', custom_objects={'MaxMin': MaxMin})
 
 optimizer = SGD(lr=0.01, momentum=0.9, decay=0.0005, nesterov=False)
 model.compile(loss='categorical_crossentropy', optimizer=optimizer, metrics=['accuracy'])
