@@ -6,7 +6,7 @@ This is a 4 layer Convolutional Neural Network written in Keras. [MaxMin CNN](ht
 ## Testing the classifier Real-Time:
 
 ### Training
----
+
 Run the script `python train.py --epochs 20 --batch_size 4`
 
 Proper training can give 0.996 accuracy on the test data in [Kaggle Digit Recognizer Challenge](https://www.kaggle.com/c/digit-recognizer).
