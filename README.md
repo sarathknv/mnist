@@ -3,10 +3,10 @@
 This is a 4 layer Convolutional Neural Network written in Keras. [MaxMin CNN](https://github.com/karandesai-96/maxmin-cnn) layers were used instead of the traditional CNN layers. 
 
 ## Overview of executable scripts:
-`draw.py`   &nbsp;&nbsp;classify hand drawn digits using mouse in real-time.  
+`draw.py`   &nbsp;&nbsp;&nbsp;classify hand drawn digits using mouse in real-time.  
 `maxmin.py` implementation of [MaxMin CNN](https://github.com/karandesai-96/maxmin-cnn).  
 `submit.py` for Kaggle [competition](https://www.kaggle.com/c/digit-recognizer).Generates predictions on test data.  
-`train.py`  &nbsp;train the network.  
+`train.py`  &nbsp;&nbsp;train the network.  
 
 
 ## Training:
@@ -20,8 +20,7 @@ The model `best_val_acc_epoch_20_bs_4.h5` gives a score of 0.99171 on test data.
        
        
 ## Testing the classifier Real-Time:
- Run the script  `python draw.py`  
-  Control keys: `space` reset `esc` close   
+ Run the script `python draw.py` &nbsp;Control keys: `space` reset `esc` close   
  
  ![Sccreenshot draw.py](https://github.com/sarathknv/mnist/blob/master/pics/one.png)
 
