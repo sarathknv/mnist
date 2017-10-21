@@ -6,4 +6,4 @@ This is a 4 layer Convolutional Neural Network written in Keras. [MaxMin CNN](ht
 ---
 Proper training can give 0.996 accuracy on the test data in [Kaggle Digit Recognizer Challenge](https://www.kaggle.com/c/digit-recognizer).
 The model `best_val_acc_epoch_20_bs_4.h5` gives a score of 0.99171 on test data. It was trained for 20 epochs with batch size of 4. 
-![Accuracy and Loss plot](https://github.com/sarathknv/mnist/blob/master/pics/epochs_20_bs_4.png)
+       ![Accuracy and Loss plot](https://github.com/sarathknv/mnist/blob/master/pics/epochs_20_bs_4.png)
