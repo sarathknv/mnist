@@ -20,8 +20,10 @@ The model `best_val_acc_epoch_20_bs_4.h5` gives a score of 0.99171 on test data.
        
        
 ## Testing the classifier Real-Time:
- Run the script `python draw.py`
+ Run the script  `python draw.py`  
+  Control keys:     
+ `space` reset   
+ `esc`   close   
+ 
  ![Sccreenshot draw.py](https://github.com/sarathknv/mnist/blob/master/pics/one.png)
- Control keys:  
- `space` reset
- `esc`   close
+
